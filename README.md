@@ -177,4 +177,29 @@ docker push ${ECR}/${REPO}
 
 ![alt text](image-29.png)
 
-- Select `VPC` and Choose `All subnets`
+- Select `VPC` and Choose `All subnets` and `Security Group`
+
+- Click `Create`
+
+![alt text](image-30.png)
+
+![alt text](image-31.png)
+
+## 4. Test the container application ##
+
+- Click `Task` and Click on task name
+
+![alt text](image-32.png)
+
+- Copy `Public ip` and open in new browser
+
+![alt text](image-33.png)
+
+![alt text](image-34.png)
+
+-----
+
+***That it is. Congratulations. You have complete Lab-How to Implement Microservices by Using AWS Containers***
+
+-----
+
