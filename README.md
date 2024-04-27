@@ -49,7 +49,6 @@
 - Copy and paste the following command in `Dockerfile` and save
 
 ```
-dockerfile
 FROM public.ecr.aws/amazonlinux/amazonlinux:latest
 
 # Install dependencies
