@@ -32,19 +32,25 @@
 
 - Create new folder by typing the following command
 
-```mkdir ~/labmicroservice```
+```
+mkdir ~/labmicroservice
+```
 
 ![alt text](image-7.png)
 
 - type the following command
 
-```cd ~/labmicroservice```
+```
+cd ~/labmicroservice
+```
 
 ![alt text](image-8.png)
 
 - Create `Dockerfile` by using VIM Editor
 
-```vim Dockerfile```
+```
+vim Dockerfile
+```
 
 - Copy and paste the following command in `Dockerfile` and save
 
@@ -78,7 +84,9 @@ CMD /root/run_apache.sh
 
 - Run the following command
 
-```docker build --tag labmicroservice .```
+```
+docker build --tag labmicroservice .
+```
 
 ![alt text](image-9.png)
 
@@ -104,7 +112,9 @@ docker push ${ECR}/${REPO}
 
 - Type the following command
 
-```aws ecr list-images --repository-name labmicroservice --region ${AWS_REGION} ```
+```
+aws ecr list-images --repository-name labmicroservice --region ${AWS_REGION}
+```
 
 ![alt text](image-12.png)
 
@@ -201,4 +211,3 @@ docker push ${ECR}/${REPO}
 ***That it is. Congratulations. You have complete Lab-How to Implement Microservices by Using AWS Containers***
 
 -----
-
